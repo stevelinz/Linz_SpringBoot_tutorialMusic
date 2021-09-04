@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Develop Songs</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+
+<div th:insert="fragments/_header :: header"></div>
+<h5>DEVELOP</h5>
+<p>
+    <h6> Step two:</h6> develop add parts,  change keys,  make arrangements,  invert chords, build it up.
+    Does it need parts maybe it's just got a theme that just goes on and on.
+    And it doesn't need multiple changes, or maybe it does. Developing the song does not
+    have to mean it becomes more complicated each time it is played. It means that
+    <u>each time played it is becoming more of a unit, unique in its existence.</u>
+</p>
+<img th:src="@{/img/LM2.jpg}" width="60%" height="60%" id="pc" alt="Lake Mills">
+<p>
+    Change it up, how does it change the music or just keeps building the music along
+    as you keep changing the chord configurations. Never be afraid to take suggestions.
+    Others hear your song will have an idea for a verse or a way to change it up,
+    it could be good probably, and you want to use it. Someone in the band wants to
+    sing the song, but they have their own ideas about what the song is. That's fine.
+    They can sing their verse, which doesn't have to be your verse, and it works out.
+
+</p><br>
+<a th:href="@{/resident}"> << Previous </a><a th:href="@{/perform}"> &nbsp; >> Next </a>
+<div th:replace="fragments/_footer :: footer"></div>
+</body>
+</html>

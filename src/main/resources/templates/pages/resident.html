@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Resident Good</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+<div th:insert="fragments/_header :: header"></div>
+<h5>RESIDENT</h5>
+<p>
+<h6>First step:</h6> resident evil,  no resident good.  In other words remember the song all day long,
+    you can't shake this song,  it's the first thing you wanna play every day!
+</p>
+<img th:src="@{/img/Cal2.jpg}" width="450" height="400" id="pc"  alt="California Session">
+<p>
+ That's the song! It was just jamming if you don't remember the next day.
+    In Just Plain Language, <u>if you remember the song later than it was real when you were creating it.</u>
+
+</p>
+<a th:href="@{/}"> << Previous </a><a th:href="@{/develop}"> &nbsp; >> Next </a>
+<div th:replace="fragments/_footer :: footer"></div>
+</body>
+</html>

@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: com.stevelinz.linz_springboot_tutorialmusic.LinzSpringBootTu
+ torialMusicApplication
+

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Linz Music Tutorial</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+<div th:insert="fragments/_header :: header"></div>
+<h5>MUSIC TUTORIAL</h5>
+<p>
+    I'm probably the worst songwriter in the whole world.
+    My songs don't follow a particular type of pattern, or maybe they do.
+    The story this song still is not a story that is most often told that people want to hear, or
+    they may not even be interested if they do hear it. <u>What are these songs?</u> They really aren't much.
+    What I've written don't have much in the way of verse.
+    It must be the Universe, one verse. After forever, I'm often able to squeeze out the second
+    verse and make it all more believable.
+</p>
+<img th:src="@{/img/dino.jpg}" height="30%" width="30%" id="pc" alt="dino song">
+<p>
+    But most the time it's one chorus an idea that gets stuck
+    in my head that I just can't get rid of it, just keeps going round and round. And that's the song.
+    But nevertheless there is a <b>THREE STEP </b>process.  These songs organically occur.
+    This tutorial will start to take you through that journey, so you can understand what that might look like.
+    Hey I've got friends and family who still remember the old songs they still live on today.
+</p>
+<a th:href="@{/resident}">Music Tutorial</a>
+<div th:replace="fragments/_footer :: footer"></div>
+</body>
+</html>

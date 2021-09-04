@@ -1,0 +1,126 @@
+body {
+    font-family: Arial;
+    padding: 15px;
+    width: 80%;
+}
+
+img {
+    padding: 18px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #4CAF50;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+
+
+.round {
+    border-radius: 50%;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+.left {
+    float: left;
+}
+
+footer {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 12px 14px;
+    background-color: #111;
+}
+p {
+    font-size: medium;
+    font-family: Dialog;
+}
+
+b {
+    font-size: medium;
+}
+
+h4 {
+
+    font-size: xx-large;
+    font-family: fantasy;
+    color: chocolate;
+}
+
+a {
+    font-size: xx-large;
+    font-family: Noteworthy;
+    color: darksalmon;
+}
+
+h5 {
+    font-size: x-large;
+    font-family: Chalkboard;
+    color: chocolate;
+    border-bottom: none;
+    border-top-width: thin;
+
+}
+
+u {
+    color: chocolate;
+}
+
+br {
+    appearance: auto;
+}
+
+h6 {
+    font-size: large;
+    color: darkgreen;
+    border-bottom-width: thin;
+    border-top-width: thin;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html { background-color: #000; }
+body {
+    min-height: fit-content;
+    max-width: fit-content;
+    background-color: papayawhip;
+    margin: 0 auto;
+}
+
+#pc {
+    float: right;
+}
+
+#pc2 {
+    float: right;
+}
+
+
+
+
